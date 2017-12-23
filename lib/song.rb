@@ -32,4 +32,8 @@ class Song
   def self.artist_count
 
   end
+
+  def to_histogram
+    inject(Hash.new(0)) { |h, x| h[x] += 1; h}
+  end
 end
