@@ -10,7 +10,7 @@ class Song
     @@count
   end
 
-  def new=(name, artist, genre)
+  def new(name, artist, genre)
     @name = name
     @artist = artist
     @genre = genre
