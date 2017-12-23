@@ -10,5 +10,8 @@ class Song
     @@genres = {}
   end
 
+  def count
+    @@count
+  end
 
 end
