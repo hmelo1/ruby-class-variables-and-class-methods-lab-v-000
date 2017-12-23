@@ -33,7 +33,7 @@ class Song
     @@artists.to_histogram
   end
 
-  def to_histogram
+  def self.to_histogram
     inject(Hash.new(0)) { |h, x| h[x] += 1; h}
   end
 end
