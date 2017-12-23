@@ -4,12 +4,16 @@ class Song
 
   def initialize
     @@count += 1
+    @@genres = {}
   end
 
   def count
     @@count
   end
 
+  def genres
+
+  end
   def new(name, artist, genre)
     @name = name
     @artist = artist
