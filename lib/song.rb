@@ -17,8 +17,8 @@ class Song
     @@count
   end
 
-  def
-
+  def artists
+    @@artists.uniq
   end
 
 end
