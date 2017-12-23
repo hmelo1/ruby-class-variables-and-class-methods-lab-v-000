@@ -30,7 +30,7 @@ class Song
   end
 
   def self.artist_count
-
+    @@artists.to_histogram
   end
 
   def to_histogram
